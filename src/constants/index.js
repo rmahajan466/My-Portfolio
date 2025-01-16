@@ -1,76 +1,53 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-02.jpeg";
+import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer, passionate about creating efficient and user-friendly web applications. As a fresher, I have learnt technologies like React, MySQL, MongoDB, Python, Java, C, C++, and other Development Tools through various projects and hands-on learning. My journey in web development started with a curiosity about how things work, which has grown into a commitment to learning and tackling new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects whenever possible.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    role: "Software Engineer Intern",
+    company: "MaDdy Technologies Pvt. Ltd.",
+    description: `As a Software Engineer Intern at MaDdy Technologies Pvt. Ltd., my role involves developing software solutions using Python and Jupyter Notebook, with a focus on data science applications. I collaborate with the team to analyze data, create models, and implement algorithms that drive insights and enhance decision-making processes. My responsibilities include writing clean, efficient code, conducting data analysis, unit testing using PyTest, and contributing to the development of innovative data-driven solutions.`,
+    technologies: ["Python", "MySQL", "JuPyter Notebook", "Pytest", "Pandas", "Matplotlib", "Numpy"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tik-Tac-Toe",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A classic Tic-Tac-Toe game built using React! This project helped me deepen my understanding of React components, state management, and dynamic rendering.",
+    technologies: ["HTML", "CSS", "React"],
+    webLink: "https://rmahajan466.github.io/tik-tac-toe/",
+    gitLink: "https://github.com/rmahajan466/tik-tac-toe.git",
   },
   {
-    title: "Task Management App",
+    title: "Tier List App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This is a drag and drop based tier list app that allows users to create and customize their own tier lists. Users can easily drag and drop items into different tiers, making it convenient to organize and rank various elements.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    webLink: "https://rmahajan466.github.io/drag-and-drop-tier-list-app/",
+    gitLink: "git clone https://github.com/rmahajan466/drag-and-drop-tier-list-app.git",
   },
   {
-    title: "Portfolio Website",
+    title: "Stopwatch",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a simple stopwatch using HTML, CSS, and JavaScript. The stopwatch includes features such as start, stop, and reset functionality, with real-time updates in the format of Minutes: Seconds: Milliseconds. It is designed with a clean UI and efficient timing using `setInterval` for accurate performance.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    webLink: "https://rmahajan466.github.io/StopWatch/",
+    gitLink: "https://github.com/rmahajan466/StopWatch.git",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Khargone | Indore | Vadodara | Ahemdabad",
+  phoneNo: "+91-75663-64655",
+  email: "raghavmahajan965@gmail.com",
 };
