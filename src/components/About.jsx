@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
-            <h1 className="my-20 text-center text-4xl">About
+        <div className="pb-4 border-b border-neutral-900">
+            <h1 className="my-20 text-4xl text-center">About
                 <span className="text-neutral-500"> Me</span>
             </h1>
             <div className="flex flex-wrap">
@@ -24,7 +24,10 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2">
                         <div className="flex justify-center lg:justify-start">
-                            <p className="my-2 max-w-xl py-6">
+                            <p
+                                className="max-w-xl py-6 my-2"
+                                style={{ whiteSpace: 'pre-wrap' }}
+                            >
                                 {ABOUT_TEXT}
                             </p>
                         </div>

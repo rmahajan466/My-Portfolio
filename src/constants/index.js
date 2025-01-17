@@ -2,9 +2,11 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-02.jpeg";
 import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
+const CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
+export const HERO_CONTENT = CONTENT.replace(/\. /g, '.\n');
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer, passionate about creating efficient and user-friendly web applications. As a fresher, I have learnt technologies like React, MySQL, MongoDB, Python, Java, C, C++, and other Development Tools through various projects and hands-on learning. My journey in web development started with a curiosity about how things work, which has grown into a commitment to learning and tackling new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects whenever possible.`;
+export const TEXT = `I am a dedicated and versatile full stack developer, passionate about creating efficient and user-friendly web applications. As a fresher, I have learnt technologies like React, MySQL, MongoDB, Python, Java, C, C++, and other Development Tools through various projects and hands-on learning. My journey in web development started with a curiosity about how things work, which has grown into a commitment to learning and tackling new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects whenever possible.`;
+export const ABOUT_TEXT = TEXT.replace(/\. /g, '.\n');
 
 export const EXPERIENCES = [
   {
