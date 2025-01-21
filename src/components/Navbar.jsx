@@ -1,3 +1,4 @@
+import { LINKS } from "../constants";
 import Logo from "../assets/Logo1.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -10,10 +11,10 @@ const Navbar = () => {
             <img width={150} height={100} src={Logo} alt="Logo" />
         </div>
         <div className="flex items-center justify-center gap-4 m-8 text-2xl">
-            <a href="https://www.linkedin.com/in/raghav-mahajan-jsk777/" target="_blank"> <FaLinkedin /> </a>
-            <a href="https://github.com/rmahajan466" target="_blank"> <FaGithub /> </a>
-            <a href="https://x.com/rg_mhjn" target="_blank"> <FaSquareXTwitter /> </a>
-            <a href="mailto:raghavmahajan965@gmail.com"> <IoMdMail /> </a>
+            <a href={LINKS.linkedin} target="_blank"> <FaLinkedin /> </a>
+            <a href={LINKS.github} target="_blank"> <FaGithub /> </a>
+            <a href={LINKS.twitter} target="_blank"> <FaSquareXTwitter /> </a>
+            <a href= { LINKS.mail }> <IoMdMail /> </a>
         </div>
     </nav>
 };

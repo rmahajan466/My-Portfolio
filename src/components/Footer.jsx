@@ -1,3 +1,4 @@
+import {LINKS} from "../constants";
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -21,10 +22,10 @@ const Footer = () => {
                         initial={{opacity:0,x:100}}
                         transition={{duration:1}}
                         className="flex gap-3 mt-4 text-2xl sm:justify-center sm:mt-0">
-                        <a href="https://www.linkedin.com/in/raghav-mahajan-jsk777/" target="_blank"> <FaLinkedin /> </a>
-                        <a href="https://github.com/rmahajan466" target="_blank"> <FaGithub /> </a>
-                        <a href="https://x.com/rg_mhjn" target="_blank"> <FaSquareXTwitter /> </a>
-                        <a href="mailto:raghavmahajan965@gmail.com"> <IoMdMail /> </a>
+                        <a href={LINKS.linkedin} target="_blank"> <FaLinkedin /> </a>
+                        <a href={LINKS.github} target="_blank"> <FaGithub /> </a>
+                        <a href={LINKS.twitter} target="_blank"> <FaSquareXTwitter /> </a>
+                        <a href= { LINKS.mail }> <IoMdMail /> </a>
                     </motion.div>
                 </div>
             </div>

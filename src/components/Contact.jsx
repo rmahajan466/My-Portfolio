@@ -1,8 +1,4 @@
-import { CONTACT } from "../constants";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { IoMdMail } from "react-icons/io";
+import { CONTACT, LINKS } from "../constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -20,13 +16,17 @@ const Contact = () => {
                     whileInView={{opacity:1, x:0}}
                     initial={{opacity:0,x:-100}}
                     transition={{duration:1}}
-                    className="my-4"> {CONTACT.phoneNo} </motion.p>
+                    className="my-4">
+                    <a href={`tel:${CONTACT.phoneNo}`}>
+                        <u>{CONTACT.phoneNo}</u>
+                    </a>
+                </motion.p>
                 <motion.p
                     whileInView={{opacity:1, x:0}}
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     className="my-4">
-                    <a href="mailto:raghavmahajan965@gmail.com"> <u> { CONTACT.email } </u> </a>
+                    <a href={LINKS.mail}> <u> { CONTACT.email } </u> </a>
                 </motion.p>
                 <motion.p
                     whileInView={{opacity:1, x:0}}

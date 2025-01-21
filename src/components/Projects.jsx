@@ -35,8 +35,16 @@ const Projects = () => {
                             <h6 className="mb-2 font-semibold"> {project.title} </h6>
                             <p className="mb-4 text-neutral-400"> {project.description} </p>
 
-                            <button className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"><a href={project.webLink} target="_blank"> Web Link </a></button>
-                            <button className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"><a href={project.webLink} target="_blank"> GitHub Link </a></button>
+                            <button className="text-white bg-gradient-to-br from-purple-600 to-cyan-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                <a href={project.webLink} target="_blank">
+                                    Web Link
+                                </a>
+                            </button>
+                            <button className="text-white bg-gradient-to-br from-purple-600 to-cyan-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                <a href={project.gitLink} target="_blank">
+                                    GitHub Repo
+                                </a>
+                            </button>
                             <br /> <br />
 
                             {project.technologies.map((tech, index) => (

@@ -35,7 +35,7 @@ export const PROJECTS = [
       "This is a drag and drop based tier list app that allows users to create and customize their own tier lists. Users can easily drag and drop items into different tiers, making it convenient to organize and rank various elements.",
     technologies: ["HTML", "CSS", "JavaScript"],
     webLink: "https://rmahajan466.github.io/drag-and-drop-tier-list-app/",
-    gitLink: "git clone https://github.com/rmahajan466/drag-and-drop-tier-list-app.git",
+    gitLink: "https://github.com/rmahajan466/drag-and-drop-tier-list-app.git",
   },
   {
     title: "Stopwatch",
@@ -52,4 +52,12 @@ export const CONTACT = {
   address: "Khargone | Indore | Vadodara | Ahemdabad",
   phoneNo: "+91-75663-64655",
   email: "raghavmahajan965@gmail.com",
+};
+
+export const LINKS = {
+  resume : "https://drive.google.com/drive/folders/1lQrBahmY0Ekw8B9UVuFZjdJMZLwm886b?usp=drive_link",
+  linkedin : "https://www.linkedin.com/in/raghav-mahajan-jsk777/",
+  github: "https://github.com/rmahajan466",
+  twitter: "https://x.com/rg_mhjn",
+  mail : "mailto:raghavmahajan965@gmail.com",
 };
