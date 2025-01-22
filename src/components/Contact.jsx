@@ -17,7 +17,7 @@ const Contact = () => {
                     initial={{opacity:0,x:-100}}
                     transition={{duration:1}}
                     className="my-4">
-                    <a href={`tel:${CONTACT.phoneNo}`}>
+                    <a href={`tel:${CONTACT.phoneNo}`} target="_blank" rel="noopener noreferrer">
                         <u>{CONTACT.phoneNo}</u>
                     </a>
                 </motion.p>
@@ -26,7 +26,7 @@ const Contact = () => {
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     className="my-4">
-                    <a href={LINKS.mail}> <u> { CONTACT.email } </u> </a>
+                    <a href={LINKS.mail} target="_blank" rel="noopener noreferrer"> <u> { CONTACT.email } </u> </a>
                 </motion.p>
                 <motion.p
                     whileInView={{opacity:1, x:0}}

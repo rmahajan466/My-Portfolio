@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "MaDdy Technologies Pvt. Ltd.",
     description: `As a Software Engineer Intern at MaDdy Technologies Pvt. Ltd., my role involves developing software solutions using Python and Jupyter Notebook, with a focus on data science applications. I collaborate with the team to analyze data, create models, and implement algorithms that drive insights and enhance decision-making processes. My responsibilities include writing clean, efficient code, conducting data analysis, unit testing using PyTest, and contributing to the development of innovative data-driven solutions.`,
-    technologies: ["Python", "MySQL", "JuPyter Notebook", "Pytest", "Pandas", "Matplotlib", "Numpy"],
+    technologies: ["Python", "MySQL", "Pytest", "Pandas", "Matplotlib", "Numpy"],
   },
 ];
 
@@ -64,7 +64,7 @@ export const PROJECTS = [
     image: project5,
     description: "A classic Hangman game built using Python. This project helped me enhance my Python programming skills, including string manipulation, file handling, and logic implementation. The game randomly selects a word from a predefined list, and the player has to guess the word within a limited number of attempts.",
     technologies: ["Python"],
-    webLink: "#",
+    webLink: null,
     gitLink: "https://github.com/rmahajan466/Python_Hangman.git",
   },
   {
@@ -72,7 +72,7 @@ export const PROJECTS = [
     image: project6,
     description: "A fun Tetris game developed using Python. This project allowed me to explore game development concepts, including game logic, user input, and graphical interfaces. The game features classic Tetris blocks that fall from the top of the screen, and the player must rotate and move the blocks to create horizontal lines and clear the board.",
     technologies: ["Python"],
-    webLink: "#",
+    webLink: null,
     gitLink: "https://github.com/rmahajan466/Python-Tetris.git",
   },
   {
@@ -80,7 +80,7 @@ export const PROJECTS = [
     image: project7,
     description: "This is a simple quiz game developed using Python. The game presents multiple-choice questions to the player, who must select the correct answer from the given options. The project helped me practice Python programming concepts, including functions, loops, conditional statements, requests, JSON, pprint, and random.",
     technologies: ["Python", "JSON", "API"],
-    webLink: "#",
+    webLink: null,
     gitLink: "https://github.com/rmahajan466/Quizzing-Game-using-python.git",
   },
 ];

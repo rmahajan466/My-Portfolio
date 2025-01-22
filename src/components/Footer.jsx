@@ -22,10 +22,10 @@ const Footer = () => {
                         initial={{opacity:0,x:100}}
                         transition={{duration:1}}
                         className="flex gap-3 mt-4 text-2xl sm:justify-center sm:mt-0">
-                        <a href={LINKS.linkedin} target="_blank"> <FaLinkedin /> </a>
-                        <a href={LINKS.github} target="_blank"> <FaGithub /> </a>
-                        <a href={LINKS.twitter} target="_blank"> <FaSquareXTwitter /> </a>
-                        <a href= { LINKS.mail }> <IoMdMail /> </a>
+                        <a href={LINKS.linkedin} target="_blank" rel="noopener noreferrer"> <FaLinkedin /> </a>
+                        <a href={LINKS.github} target="_blank" rel="noopener noreferrer"> <FaGithub /> </a>
+                        <a href={LINKS.twitter} target="_blank" rel="noopener noreferrer"> <FaSquareXTwitter /> </a>
+                        <a href= { LINKS.mail } target="_blank" rel="noopener noreferrer"> <IoMdMail /> </a>
                     </motion.div>
                 </div>
             </div>
