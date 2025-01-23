@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 const CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
 export const HERO_CONTENT = CONTENT.replace(/\. /g, '.\n');
@@ -23,6 +24,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Crypto Tracker",
+    image: project8,
+    description:
+      "Crypto Tracker is a web application that allows users to track real-time cryptocurrency prices, and trends. The app provides a user-friendly interface with interactive charts, live updates, and detailed information about various cryptocurrencies. Users can view historical data, and analyze market trends to make informed decisions.",
+    technologies: ["React", "Chart.js", "CoinGecko API", "Tailwind CSS", "DaisyUI"],
+    webLink: "https://crypto-tracker-cyan-seven.vercel.app/",
+    gitLink: "https://github.com/rmahajan466/Crypto-Project-CoinGecko.git",
+  },
   {
     title: "My Portfolio",
     image: project4,
