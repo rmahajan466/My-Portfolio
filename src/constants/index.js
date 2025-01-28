@@ -1,3 +1,9 @@
+import codeForces from "../assets/cp/codeforces1.jpeg";
+import atCoders from "../assets/cp/AtCoders.png";
+import leetCode from "../assets/cp/leetCode.jpeg";
+import codeChef from "../assets/cp/codechef.jpeg";
+import gfg from "../assets/cp/gfg.jpeg";
+
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-02.jpeg";
 import project3 from "../assets/projects/project-3.png";
@@ -23,6 +29,39 @@ export const EXPERIENCES = [
     technologies: ["Python", "MySQL", "Pytest", "Pandas", "Matplotlib", "Numpy"],
   },
 ];
+
+export const CP = [
+  {
+    title: "CodeForces",
+    rank: 537,
+    logo: codeForces,
+    link: "https://codeforces.com/profile/rg_mhjn",
+  },
+  {
+    title: "AtCoders",
+    rank: 111,
+    logo: atCoders,
+    link: "https://atcoder.jp/users/rg_mhjn",
+  },
+  {
+    title: "LeetCode",
+    rank: 1515,
+    logo: leetCode,
+    link: "https://leetcode.com/u/rg_mhjn/",
+  },
+  {
+    title: "CodeChef",
+    rank: 1044,
+    logo: codeChef,
+    link: "https://www.codechef.com/users/rg_mhjn",
+  },
+  {
+    title: "GeeksforGeeks",
+    rank: 82,
+    logo: gfg,
+    link: "https://www.geeksforgeeks.org/user/rg_mhjn/",
+  },
+]
 
 export const PROJECTS = [
   {
