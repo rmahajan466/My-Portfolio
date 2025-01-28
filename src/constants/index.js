@@ -13,6 +13,7 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
+import project10 from "../assets/projects/project-10.png";
 
 const CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
 export const HERO_CONTENT = CONTENT.replace(/\. /g, '.\n');
@@ -72,6 +73,15 @@ export const PROJECTS = [
     technologies: ["React", "Chart.js", "CoinGecko API", "Tailwind CSS", "DaisyUI"],
     webLink: "https://crypto-tracker-cyan-seven.vercel.app/",
     gitLink: "https://github.com/rmahajan466/Crypto-Project-CoinGecko.git",
+  },
+  {
+    title: "CountDown Timmer",
+    image: project10,
+    description: "This project is part of the PWSkills Full Stack course, focusing on React. It is a simple countdown timer project.",
+    technologies: ["React", "HTML", "CSS"],
+    webLink: "https://count-down-timmer-taupe.vercel.app/",
+    gitLink: "https://github.com/rmahajan466/React-CountDown-App.git",
+
   },
   {
     title: "Wordle Game",
