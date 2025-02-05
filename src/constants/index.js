@@ -14,6 +14,7 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
+import project11 from "../assets/projects/project-11.svg";
 
 const CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
 export const HERO_CONTENT = CONTENT.replace(/\. /g, '.\n');
@@ -73,6 +74,14 @@ export const PROJECTS = [
     technologies: ["React", "Chart.js", "CoinGecko API", "Tailwind CSS", "DaisyUI"],
     webLink: "https://crypto-tracker-cyan-seven.vercel.app/",
     gitLink: "https://github.com/rmahajan466/Crypto-Project-CoinGecko.git",
+  },
+  {
+    title: "Pokedex",
+    image: project11,
+    description: "This project is a Pokedex application built with React for the frontend. It allows users to search for and view details about various Pokémon.",
+    technologies: ["React", "HTML", "CSS"],
+    webLink: "https://pokedex-pi-gilt-80.vercel.app/",
+    gitLink: "https://github.com/rmahajan466/Pokedex.git",
   },
   {
     title: "CountDown Timmer",
