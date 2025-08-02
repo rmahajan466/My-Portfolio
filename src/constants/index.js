@@ -24,7 +24,14 @@ export const ABOUT_TEXT = TEXT.replace(/\. /g, '.\n');
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "06/2025 - 07/2025",
+    role: "Analyst Trainee",
+    company: "Cognizant Technology Solution Pvt. Ltd.",
+    description: `Underwent initial training in Mainframe Development, gaining hands-on experience with TSO/ISPF and JCL (Job Control Language). Appointed as the Class Representative, responsible for coordinating between the training team and cohort to ensure smooth communication and timely resolution of queries.`,
+    technologies: ["TSO", "ISPF", "COBOL", "JCL", "DB2", "Mainframe"],
+  },
+  {
+    year: "11/2024 - 04/2025",
     role: "Software Engineer Intern",
     company: "MaDdy Technologies Pvt. Ltd.",
     description: `As a Software Engineer Intern at MaDdy Technologies Pvt. Ltd., my role involves developing software solutions using Python and Jupyter Notebook, with a focus on data science applications. I collaborate with the team to analyze data, create models, and implement algorithms that drive insights and enhance decision-making processes. My responsibilities include writing clean, efficient code, conducting data analysis, unit testing using PyTest, and contributing to the development of innovative data-driven solutions.`,
