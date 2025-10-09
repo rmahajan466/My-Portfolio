@@ -15,6 +15,7 @@ import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
 import project11 from "../assets/projects/project-11.svg";
+import project12 from "../assets/projects/project-12.png";
 
 const CONTENT = `I am an enthusiastic fresher in full stack development, eager to craft robust and scalable web applications. I have built a solid foundation in front-end technologies like React, as well as back-end technologies such as MySQL, and MongoDB. My goal is to apply my growing expertise to create innovative solutions that contribute to business growth and provide exceptional user experiences.`;
 export const HERO_CONTENT = CONTENT.replace(/\. /g, '.\n');
@@ -73,6 +74,15 @@ export const CP = [
 ]
 
 export const PROJECTS = [
+  {
+    title: "Splitwise",
+    image: project12,
+    description:
+      "Splitwise is a web application that simplifies expense sharing among friends, roommates, or travel companions. It allows users to create groups, add expenses, and track who owes whom. The app provides a user-friendly interface for managing shared expenses, calculating balances, and generating reports. Users can easily settle up with each other through various payment methods integrated into the platform.",
+    technologies: ["NextJS", "Tailwind CSS", "Convex", "Google Gemini API", "Clerk", "Vercel", "Inngest"],
+    webLink: "https://splitwise-olive.vercel.app/",
+    gitLink: "https://github.com/rmahajan466/splitwise.git",
+  },
   {
     title: "Crypto Tracker",
     image: project8,
